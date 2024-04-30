@@ -8,7 +8,7 @@
 
     <title>Canvas</title>
 
-    <link rel="stylesheet" type="text/css" href="{{ mix('css/canvas-ui.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@400;700&display=swap">
 
@@ -21,10 +21,10 @@
 </div>
 
 <script>
-    window.CanvasUI = @json($config);
+    window.CanvasUI = JSON.stringify(<?php echo json_encode($config); ?>);
 </script>
 
-<script type="text/javascript" src="{{ mix('js/canvas-ui.js') }}"></script>
+<script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
 

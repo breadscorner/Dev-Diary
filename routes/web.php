@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('index');
-});
+use App\Http\Controllers\CanvasUiController;
+
+Route::get('/', [CanvasUiController::class, 'index']);
 
 Route::prefix('canvas-ui')->group(function () {
     Route::prefix('api')->group(function () {
