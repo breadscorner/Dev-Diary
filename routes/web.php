@@ -2,9 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\CanvasUiController;
+// use App\Http\Controllers\CanvasUiController;
 
-// Route::get('/', [CanvasUiController::class, 'index'])->name('canvas-ui');
+// Route::get('/', [CanvasUiController::class, 'index']);
+
+// Route::get('/', 'CanvasUiController@index')->name('canvas-ui.index');
 
 route::get('/', function () {
     return view('canvas-ui');
