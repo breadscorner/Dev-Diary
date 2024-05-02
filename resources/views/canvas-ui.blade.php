@@ -20,9 +20,7 @@
     <router-view></router-view>
 </div>
 
-<script>
-    window.CanvasUI = @json($config);
-</script>
+<script>window.CanvasUI = @json($config);</script>
 
 <script type="text/javascript" src="{{ mix('public/vendor/canvas/js/app.js') }}"></script>
 </body>

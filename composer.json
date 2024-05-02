@@ -11,7 +11,9 @@
         "php": "^8.2",
         "austintoddj/canvas": "^6.0",
         "laravel/framework": "^11.0",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "binshops/laravel-blog": "^7.3.2"
+
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
