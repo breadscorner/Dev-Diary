@@ -8,7 +8,7 @@
 
     <title>Canvas</title>
 
-    <link rel="stylesheet" type="text/css" href="{{ asset(mix('public/vendor/canvas/css/app.css')) }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('/public/css/app.css') }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@400;700&display=swap">
 
@@ -24,7 +24,7 @@
 
 <script>window.CanvasUI = <?php echo json_encode($config); ?>;</script>
 
-<script type="text/javascript" src="{{ asset(mix('public/vendor/canvas/js/app.js')) }}"></script>
+<script type="text/javascript" src="{{ mix('/public/js/app.js') }}"></script>
 </body>
 </html>
 
